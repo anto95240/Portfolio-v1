@@ -38,18 +38,18 @@
 
 .photo{
   margin-left: 5%;
-  width: 80%;
+  width: auto;
 }
 
 .container{
   display: flex;
   flex-direction: column;
-  gap: 75px;
+  gap: 50px;
   font-family: "Inter", sans-serif;
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
-  font-size: calc(1rem + 0.1vw) !important;
+  font-size: calc(1rem + 0.4vw) !important;
   line-height: calc(1rem + 0.7vw) !important;
 }
 
@@ -59,12 +59,14 @@
 }
 
 .btn{
-  margin-top: 2%;
+  margin-top: 8%;
   background-color: #558ecb !important;
-  padding: 10px !important;
+  padding: 15px !important;
   border-radius: 50px !important;
   width: 30%;
+  align-items: center;
   text-transform: uppercase;
+  font-size: calc(1rem + 0.2vw) !important;
   font-family: "Montserrat", "sans-serif" !important;
 }
 
@@ -87,6 +89,6 @@
     /* MAIN */
 
     .container{
-      max-width: 550px !important;
+      max-width: 570px !important;
     }  
 }

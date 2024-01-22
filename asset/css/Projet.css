@@ -18,19 +18,48 @@
 }
 
 .navbar-nav{
-  margin-left: auto;
-  float: right;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  gap: 30px;
+  text-align: center;
+  gap: 15px;
   font-size: calc(1rem + 0.5vw);
   padding: 5px;
 } 
 
-/* Nav */
+.nav-item:hover{
+  text-transform: uppercase;
+  text-decoration: 2px underline rgb(81, 112, 173);
+}
+
+/* MAIN */
+
+.logo{
+  width: 81%;
+  float: right;
+  margin-left: 100%;
+  margin-bottom: 50px;
+}
+
+.card{
+  align-content: center;
+  width: 95% !important;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px !important;
+  --bs-card-bg:none !important;
+  padding: 2%;
+}
 
 @media screen and (min-width: 992px) {
-  .img-fluid{
+  /* NAV */
+  .container-fluid .img-fluid{
     margin-right: 35%;
   }
+
+  .navbar-nav{
+    margin-left: auto;
+    float: right;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    gap: 30px;
+  } 
 }
