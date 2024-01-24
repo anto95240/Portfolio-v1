@@ -55,7 +55,7 @@ main .card .btn img{
 }
 
 main .img-fluid{
-  width: 35% !important;
+  width: 40% !important;
 }
 
 main .card h5{
@@ -68,10 +68,18 @@ main .card h5{
   font-size: calc(1.1rem + 0.3vw) !important;  
   font-family: "Inter", "sans-serif" !important;
   padding-bottom: 2%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.containerCard{
-  width: 70% !important;
+
+.containerCard .row{
+  gap: 15px;
+}
+
+.containerCard .row .col{
+  max-width: 400px !important;
 }
 
 .containerCard h1{
@@ -87,28 +95,12 @@ main .card h5{
 
 /* BTN */
 
-.returnTop .btn{
-  margin-top: 8%;
-  margin-left: 85%;
-  margin-bottom: 50px;
-  background-color: #558ecb !important;
-  padding: 5px !important;
-  border-radius: 50px !important;
-  width: 12%;
-  align-items: center;
-  font-size: calc(0.9rem + 0.1vw) !important;
-  -webkit-border-radius: 50px !important;
-  -moz-border-radius: 50px !important;
-  -ms-border-radius: 50px !important;
-  -o-border-radius: 50px !important;
-}
-
 main .card .btn{
   margin-top: 3%;
   background-color: #558ecb !important;
   padding: 7px !important;
   border-radius: 50px !important;
-  width: 13%;
+  width: 15%;
   align-items: center;
   text-transform: uppercase;
   font-size: calc(0.8rem + 0.1vw) !important;
@@ -119,6 +111,21 @@ main .card .btn{
   -o-border-radius: 50px !important;
 }
 
+.returnTop .btn{
+  margin-top: 8%;
+  margin-left: 85%;
+  margin-bottom: 50px;
+  background-color: #558ecb !important;
+  padding: 8px !important;
+  border-radius: 50px !important;
+  width: 12%;
+  align-items: center;
+  font-size: calc(0.8rem + 0.1vw) !important;
+  -webkit-border-radius: 50px !important;
+  -moz-border-radius: 50px !important;
+  -ms-border-radius: 50px !important;
+  -o-border-radius: 50px !important;
+}
 
 footer .btn{
   margin-top: 8%;
@@ -160,8 +167,8 @@ footer .row{
 
 }
 
-@media screen and (min-width: 992px) {
   /* NAV */
+@media screen and (min-width: 992px) {
   nav .img-fluid{
     margin-right: 35%;
   }
@@ -173,6 +180,134 @@ footer .row{
     border-radius: 10px;
     gap: 30px;
   } 
+}
+
+  /* MAIN */
+@media screen and (max-width: 900px) {
+
+  .card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .logo .img-fluid {
+    margin-top: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .containerCard .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .containerCard p{
+    font-size: calc(1rem + 0.5vw) !important;
+  }
+}
+
+  /* FOOTER */
+@media screen and (max-width: 1050px) {
+
+  footer .text-light .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 5%;
+  }
+
+  footer .text-light .row .col{
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+
+  /* BTN */
+@media screen and (max-width: 1350px) {
+  /* main */
+  main .card .btn{
+    width: 16% !important;
+  }  
+}
+
+@media screen and (max-width: 1250px) {
+  /* main */
+  main .card .btn{
+    width: 18% !important;
+  }  
+
+  /* return */
+  .returnTop .btn{
+    margin-left: 80%;
+    width: 15% !important;
+  }  
+}
+
+@media screen and (max-width: 1080px) {
+  /* main */
+  main .card .btn{
+    width: 21% !important;
+  }  
+}
+
+@media screen and (max-width: 950px) {
+  /* main */
+  main .card .btn{
+    width: 24% !important;
+  }  
+
+  /* return */
+  .returnTop .btn{
+    width: 18% !important;
+  }  
+}
+
+@media screen and (max-width: 780px) {
+    /* return */
+  .returnTop .btn{
+    margin-left: 72%;
+    width: 24% !important;
+  }  
+
+}
+
+
+@media screen and (max-width: 800px) {
+  /* main */
+  main .card .btn{
+    width: 30% !important;
+  }  
+
+  /* return */
+  .returnTop .btn{
+    margin-left: 72%;
+    width: 24% !important;
+  }  
+}
+
+@media screen and (max-width: 650px) {  
+  /* main */
+  main .card .btn{
+    width: 34% !important;
+  }  
+}
+
+@media screen and (max-width: 590px) {
+  /* main */
+  main .card .btn{
+    width: 38% !important;
+  }  
+  /* return */
+  .returnTop .btn{
+    margin-left: 70%;
+    width: 28% !important;
+  }  
 }
 
 .main_hr {
