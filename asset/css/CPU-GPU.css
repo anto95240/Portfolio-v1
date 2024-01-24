@@ -108,7 +108,15 @@ main .card p{
 
 .pagination{
   padding-top: 8%;
-
+  --bs-pagination-bg: #2c3e50 !important;
+  --bs-pagination-border-color: #c1bebe !important;
+  --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  --bs-pagination-active-color: #2c3e50;
+  --bs-pagination-active-bg: #558ecb !important;
+  --bs-pagination-active-border-color: #d4d3d3 !important;
+  --bs-pagination-disabled-bg: #d4d3d3 !important;
+  --bs-pagination-hover-bg: #558ecb !important;
+  --bs-pagination-focus-bg: #558ecb !important;
 }
 
 /* FOOTER */
@@ -163,7 +171,7 @@ footer .row{
 }
 
 .returnTop .btn{
-  margin-top: 8%;
+  margin-top: 5%;
   margin-left: 85%;
   margin-bottom: 50px;
   background-color: #558ecb !important;
