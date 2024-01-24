@@ -167,6 +167,7 @@ footer .row{
 
 }
 
+
   /* NAV */
 @media screen and (min-width: 992px) {
   nav .img-fluid{
@@ -181,6 +182,7 @@ footer .row{
     gap: 30px;
   } 
 }
+
 
   /* MAIN */
 @media screen and (max-width: 900px) {
@@ -210,6 +212,7 @@ footer .row{
   }
 }
 
+
   /* FOOTER */
 @media screen and (max-width: 1050px) {
 
@@ -227,6 +230,7 @@ footer .row{
   }
   
 }
+
 
   /* BTN */
 @media screen and (max-width: 1350px) {
@@ -276,7 +280,6 @@ footer .row{
   }  
 
 }
-
 
 @media screen and (max-width: 800px) {
   /* main */
