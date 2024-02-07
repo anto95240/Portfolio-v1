@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./asset/css/About.css" />
+    <link rel="stylesheet" href="/asset/css/About.css" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/asset/css/bootstrap.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +16,7 @@
     />
 
     <title>About</title>
-    <link rel="shortcut icon" href="./asset/images/mini_logo.png" />
+    <link rel="shortcut icon" href="/asset/images/mini_logo.png" />
   </head>
   <body>
     <header class="fixed-top z-10">
@@ -59,13 +59,16 @@
         <div class="about">
           <p>Découvrez mon CV !</p>
           <div class="my_about">
-            <p><a class="btn text-light" href="./CV.html">mon cv</a></p>
+            <p><a class="btn text-light" href="/CV.html">mon cv</a></p>
           </div>
         </div>
         <div class="about">
           <p>Pour me contacter !</p>
-          <div class="my_about">
-            <p><a class="btn text-light" href="/contact.html">contact</a></p>
+          <div class="mail">
+            <p><a class="btn text-light" href="mailto:antoric160@gmail.com">mail</a></p>
+          </div>
+          <div class="linkedin">
+            <p><a class="btn text-light" href="https://www.linkedin.com/in/antoine-richard-437a422a7/">linkedin</a></p>
           </div>
         </div>
         <div class="about">
@@ -76,29 +79,41 @@
         </div>
       </div> 
       
-      <button type="button" class="btn btn-primary float-end" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+      <button type="button" class="btn contact btn-primary float-end" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Des questions ?</button>
 
 
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+            <div class="modal-header bg-white">
+              <h1 class="modal-title fs-5 bg-white" id="exampleModalLabel">Me Contacter</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label">Recipient:</label>
-                  <input type="text" class="form-control" id="recipient-name">
+            <div class="modal-body bg-white">
+              <div class="row mb-4 bg-white">
+                <div class="col-md-6 mb-4 mb-md-0 bg-white">
+                  <div class="form-floating mb-3 bg-white">
+                    <input type="text" class="form-control bg-white" id="floatingInput" placeholder="name">
+                    <label class="bg-transparent" for="floatingInput">Name</label>
+                  </div>
                 </div>
-                <div class="mb-3">
-                  <label for="message-text" class="col-form-label">Message:</label>
-                  <textarea class="form-control" id="message-text"></textarea>
+                <div class="col-md-6 bg-white">
+                  <div class="form-floating mb-3 bg-white">
+                    <input type="text" class="form-control bg-white" id="floatingInput" placeholder="name@example.com">
+                    <label class="bg-transparent" for="floatingInput">Sujet</label>
+                  </div>
                 </div>
-              </form>
+              </div>
+              <div class="form-floating mb-5 bg-white">
+                <input type="email" class="form-control bg-white" id="floatingInput" placeholder="sujet">
+                <label class="bg-transparent" for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating mb-3 bg-white">                
+                <textarea class="form-control bg-white h-25" id="floatingMessage" placeholder="message" ></textarea>  
+                <label class="bg-transparent" for="floatingInput">Message</label>
+              </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-white">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
               <button type="button" class="btn btn-primary">Send message</button>
             </div>
@@ -107,7 +122,6 @@
       </div>
 
     </main>
-    <script src="/asset/js/snippets.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="/asset/js/bootstrap.js"></script>
   </body>
 </html>

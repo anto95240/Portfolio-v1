@@ -61,6 +61,7 @@
 .about .btn{
   margin-top: 8%;
   background-color: #558ecb !important;
+  border-color: #558ecb !important;
   padding: 15px !important;
   border-radius: 50px !important;
   width: 30%;
@@ -68,6 +69,15 @@
   text-transform: uppercase;
   font-size: calc(1rem + 0.2vw) !important;
   font-family: "Montserrat", "sans-serif" !important;
+}
+
+.contact{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: #558ecb !important;
+  border-color: #558ecb !important;
+  width: 20% !important;
 }
 
 
@@ -92,4 +102,40 @@
     .container{
       max-width: 570px !important;
     }  
+}
+
+@media screen and (max-width: 900px) {
+  .logo .img-fluid{
+    width: 75% !important;
+  }
+
+  .photo .img-fluid{
+    width: 50% !important;
+  }
+}
+
+
+/* BTN */
+@media screen and (max-width: 700px) {
+    /* MAIN */
+
+    .contact{
+      width: 30% !important;
+    }  
+}
+
+@media screen and (max-width: 480px) {
+  /* MAIN */
+
+  .contact{
+    width: 35% !important;
+  }  
+}
+
+@media screen and (max-width: 400px) {
+  /* MAIN */
+
+  .contact{
+    width: 40% !important;
+  }  
 }

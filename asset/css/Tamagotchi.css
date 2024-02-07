@@ -142,6 +142,7 @@ footer .row{
 
 .returnBack .btn{
   background-color: #558ecb !important;
+  border-color: #558ecb !important;
   padding: 3px !important;
   border-radius: 50px !important;
   width: 9%;
@@ -158,6 +159,7 @@ footer .row{
 
 .techno .btn{
   background-color: #558ecb !important;
+  border-color: #558ecb !important;
   padding: 2px !important;
   border-radius: 50px !important;
   width: 25%;
@@ -175,6 +177,7 @@ footer .row{
   margin-left: 85%;
   margin-bottom: 50px;
   background-color: #558ecb !important;
+  border-color: #558ecb !important;
   padding: 8px !important;
   border-radius: 50px !important;
   width: 12%;
@@ -189,6 +192,7 @@ footer .row{
 footer .btn{
   margin-top: 8%;
   background-color: #558ecb !important;
+  border-color: #558ecb !important;
   padding: 10px !important;
   border-radius: 50px !important;
   width: 60%;
@@ -229,6 +233,12 @@ footer .btn{
   main .img-fluid, video {
     padding-top: 2%;
     margin-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .logo .img-fluid{
+    width: 65% !important;
   }
 }
 

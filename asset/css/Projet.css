@@ -34,8 +34,8 @@
 .logo{
   width: 81%;
   float: right;
-  margin-left: 100%;
-  margin-bottom: 50px;
+  /* margin-left: 100%; */
+  /* margin-bottom: 50px; */
 }
 
 .card{
@@ -98,6 +98,7 @@ main .card h5{
 main .card .btn{
   margin-top: 3%;
   background-color: #558ecb !important;
+  border-color: #558ecb !important;
   padding: 7px !important;
   border-radius: 50px !important;
   width: 15%;
@@ -116,6 +117,7 @@ main .card .btn{
   margin-left: 85%;
   margin-bottom: 50px;
   background-color: #558ecb !important;
+  border-color: #558ecb !important;
   padding: 8px !important;
   border-radius: 50px !important;
   width: 12%;
@@ -130,6 +132,7 @@ main .card .btn{
 footer .btn{
   margin-top: 8%;
   background-color: #558ecb !important;
+  border-color: #558ecb !important;
   padding: 10px !important;
   border-radius: 50px !important;
   width: 60%;
@@ -191,6 +194,12 @@ footer .row{
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .logo .img-fluid{
+    width: 65% !important;
   }
 }
 
@@ -304,12 +313,23 @@ footer .row{
 @media screen and (max-width: 590px) {
   /* main */
   main .card .btn{
-    width: 38% !important;
+    width: 45% !important;
   }  
   /* return */
   .returnTop .btn{
-    margin-left: 70%;
-    width: 28% !important;
+    margin-left: 50%;
+    width: 30% !important;
+  }  
+}
+
+@media screen and (max-width: 450px) {
+  /* main */
+  main .card .btn{
+    width: 55% !important;
+  }  
+  /* return */
+  .returnTop .btn{
+    width: 38% !important;
   }  
 }
 

@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./asset/css/CV.css" />
+    <link rel="stylesheet" href="/asset/css/CV.css" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/asset/css/bootstrap.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +16,7 @@
     />
 
     <title>CV</title>
-    <link rel="shortcut icon" href="./asset/images/mini_logo.png" />
+    <link rel="shortcut icon" href="/asset/images/mini_logo.png" />
   </head>
   <body>
     <header id="nav" class="fixed-top z-10">
@@ -29,7 +29,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav px-5 mb-2 mb-lg-4 mx-lg">
+            <ul class="navbar-nav px-5 mt-2 mb-2 mb-lg-4 mx-lg">
               <li class="nav-item">
                 <a class="nav-link text-light" href="#profil">Profil</a>
               </li>
@@ -62,7 +62,7 @@
           <h1 class="text-uppercase">antoine richard</h1>
           <br>
           <p>étudiant</p>
-          <a class="btn text-light" href="./asset/doc/CV.pdf" > Télécharger mon CV </a>
+          <a class="btn text-light" href="/asset/doc/CV.pdf" > Télécharger mon CV </a>
         </div>        
       </section>
 
@@ -70,7 +70,7 @@
         <hr class="main_hr">
         <hr class="onglet_hr">
         <h1 class="text-uppercase text-center text-light">compétences</h1>
-        <div class="container-fluid d-flex mt-sm-5 ">
+        <div class="container-fluid d-flex mt-sm-5 pb-5">
 
           <!-- Langage -->
           <div class="col-lg-4 d-flex justify-content-center">
@@ -152,7 +152,7 @@
         
         <div class="arrow_return mt-5">
           <a href="#"> 
-            <img src="./asset/images/fleche2.png" alt="flèche">
+            <img src="/asset/images/fleche2.png" alt="flèche">
           </a>
         </div>
       </section>
@@ -162,9 +162,50 @@
         <hr class="onglet_hr">
         <h1 class="text-uppercase text-center text-light">formation</h1>
         
+        <div class="container py-5">
+          <div class="main-timeline">
+            <div class="timeline left">
+              <div class="card">
+                <div class="card-body d-flex flex-column p-4 bg-light"> 
+                  <time class="bg-light">2019 - 2022</time>
+                  <img class=" img-fluid expert bg-light" src="/asset/images/Diplome.png" alt="diplôme">
+                  <h2 class="mb-0 bg-light"> LYCÉE MONTESQUIEU (Herblay, 95) </h2> 
+                  <h3 class="mb-0 bg-light"> BAC Générale </h3>
+                  <hr class="article_hr" />
+                  <p class="mb-0 bg-light"> Spécialité : Mathématiques <br /> Spécialité : Numérique et Science Informatique </p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline right">
+              <div class="card">
+                <div class="card-body d-flex flex-column p-4 bg-light">
+                  <time class="bg-light">2019 -</time>
+                  <img class=" img-fluid expert bg-light" src="/asset/images/Diplome.png" alt="diplôme">
+                  <h2  class="mb-0 bg-light"> FORMATION EN LIGNE </h2> 
+                  <h3 class="mb-0 bg-light"> Open Class Room </h3>
+                  <hr class="article_hr" />
+                  <p class="mb-0 bg-light"> HTML / CSS </p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline left">
+              <div class="card">
+                <div class="card-body d-flex flex-column p-4 bg-light"> 
+                  <time class="bg-light">2022 - 2027 (en cours B2)</time>
+                  <img class=" img-fluid expert bg-light" src="/asset/images/Diplome.png" alt="diplôme">
+                  <h2 class="mb-0 bg-light"> ECOLE INGESUP - YNOV (Nanterre, 92)</h2> 
+                  <h3 class="mb-0 bg-light">DIPLÔME d'Expert Informatique et Systèmes d'information </h3>
+                  <hr class="article_hr" />
+                  <p class="mb-0 bg-light"> Spécialité : Développement Web </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="arrow_return mt-5">
           <a href="#"> 
-            <img src="./asset/images/fleche2.png" alt="flèche">
+            <img src="/asset/images/fleche2.png" alt="flèche">
           </a>
         </div>
       </section>
@@ -174,9 +215,34 @@
         <hr class="onglet_hr">
         <h1 class="text-uppercase text-center text-light">expérience</h1>
         
+        <div class="container py-5">
+          <div class="main-timeline">
+            <div class="timeline left">
+              <div class="card">
+                <div class="card-body d-flex flex-column p-4 bg-light"> 
+                  <time class="bg-light">2019</time>
+                  <img class=" img-fluid expert bg-light" src="/asset/images/experience.png" alt="diplôme">
+                  <h2 class="mb-0 bg-light"> Cabinet Comptable - Fiduciaire Cardinet Audit et Conseils (FCAC), 95 </h2> 
+                  <h3 class="mb-0 bg-light"> Stage 3ème </h3>
+                </div>
+              </div>
+            </div>
+            <div class="timeline right">
+              <div class="card">
+                <div class="card-body d-flex flex-column p-4 bg-light">
+                  <time class="bg-light">2020</time>
+                  <img class=" img-fluid expert bg-light" src="/asset/images/experience.png" alt="diplôme">
+                  <h2  class="mb-0 bg-light"> Cabinet Comptable - Fiduciaire Cardinet Audit et Conseils (FCAC), 95 </h2> 
+                  <h3 class="mb-0 bg-light"> Stage 2nd </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="arrow_return mt-5">
           <a href="#"> 
-            <img src="./asset/images/fleche2.png" alt="flèche">
+            <img src="/asset/images/fleche2.png" alt="flèche">
           </a>
         </div>
       </section>
@@ -188,16 +254,16 @@
         
         <div class="container-fluid mt-5">
           <div class="d-flex overflow-x-scroll">
-            <a href="./index.html">
+            <a href="/index.html">
               <img class="imgProjet" src="./asset/images/logo_Portofolio.png" alt="logo protfolio">
             </a>
-            <a href="./CPU-GPU.html">
+            <a href="/CPU-GPU.html">
               <img class="imgProjet" src="./asset/images/CPU-GPU/logo CPU-GPU.png" alt="logo_CPU/CPU">
             </a>
-            <a href="./Hangman-web.html">
+            <a href="/Hangman-web.html">
               <img class="imgProjet" src="./asset/images/Hangman-web/logo Hangman-web.png" alt="logo_hangman_web">
             </a>
-            <a href="./Arkanoid.html">
+            <a href="/Arkanoid.html">
               <img class="imgProjet " src="./asset/images/Arkanoid/logo arkanoid.png" alt="logo arkanoid">
             </a>
           </div>
@@ -205,7 +271,7 @@
 
         <div class="arrow_return mt-5">
           <a href="#"> 
-            <img src="./asset/images/fleche2.png" alt="flèche">
+            <img src="/asset/images/fleche2.png" alt="flèche">
           </a>
         </div>
       </section>
@@ -224,13 +290,13 @@
             <div class="contact d-flex flex-column align-items-center justify-content-center">
               <h1>Me Contacter</h1>
               <hr class="footer_hr mt-3">
-              <div class="mail d-flex align-items-baseline mt-4">
+              <div class="mail d-flex align-items-baseline mt-4 me-5">
                    <a href="mailto:antoric160@gmail.com">
-                      <img class="logo_mail me-3" src="./asset/images/mail.png" alt="logo_mail" >
+                      <img class="logo_mail me-3" src="/asset/images/mail.png" alt="logo_mail" >
                   </a>
-                  <p>contact@antoine.com</p>
+                  <p>Mon Mail</p>
               </div>
-              <div class="linkedin d-flex align-items-baseline mt-3 me-5">
+              <div class="linkedin d-flex align-items-baseline mt-3 me-3">
                   <a href="https://www.linkedin.com/in/antoine-richard-437a422a7/">
                       <img class="logo_link me-3" src="/asset/images/linkedin.png" alt="logo_link">
                   </a>
@@ -242,6 +308,6 @@
       </div>
 
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="/asset/js/bootstrap.js"></script>
   </body>
 </html>
