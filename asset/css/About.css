@@ -61,7 +61,6 @@
 .about .btn{
   margin-top: 8%;
   background-color: #558ecb !important;
-  border-color: #558ecb !important;
   padding: 15px !important;
   border-radius: 50px !important;
   width: 30%;
@@ -111,6 +110,7 @@
 
   .photo .img-fluid{
     width: 50% !important;
+    margin-left: 25% !important;
   }
 }
 
