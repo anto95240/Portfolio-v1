@@ -137,7 +137,6 @@ footer .row{
   align-items: center;
 }
 
-
 /* BTN */
 
 .returnBack .btn{
@@ -206,8 +205,8 @@ footer .btn{
   -o-border-radius: 50px !important;
 }
 
+/* NAV */
 
-  /* NAV */
 @media screen and (min-width: 992px) {
   nav .img-fluid{
     margin-right: 35%;
@@ -222,8 +221,8 @@ footer .btn{
   } 
 }
 
+/* MAIN */
 
-  /* MAIN */
 @media screen and (max-width: 900px) {
   .cardPres{
     flex-direction: column;
@@ -260,10 +259,9 @@ footer .btn{
   }
 }
 
+/* FOOTER */
 
-  /* FOOTER */
 @media screen and (max-width: 1050px) {
-
   footer .text-light .row{
     display: flex;
     flex-direction: column;
@@ -276,11 +274,9 @@ footer .btn{
     display: flex;
     justify-content: center;
   }
-  
 }
 
-
-  /* BTN */
+/* BTN */
 
 @media screen and (max-width: 1250px) {
   /* main */
@@ -303,9 +299,7 @@ footer .btn{
 }
 
 @media screen and (max-width: 950px) {
-  /* main */
-
-  /* return */
+/* return */
   .returnTop .btn{
     width: 18% !important;
   }  
@@ -320,16 +314,12 @@ footer .btn{
 }
 
 @media screen and (max-width: 780px) {
-    /* return */
+  /* return */
   .returnTop .btn{
     margin-left: 72%;
     width: 24% !important;
   }  
 
-}
-
-@media screen and (max-width: 650px) {  
-  /* main */
 }
 
 @media screen and (max-width: 590px) {

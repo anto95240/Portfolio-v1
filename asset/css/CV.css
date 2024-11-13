@@ -110,7 +110,6 @@ header .container-fluid{
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
   font-size: calc(1rem + 0.1vw) !important;
-  /* max-height: 5%; */
 }
 
 #competence .bd .progress-bar{
@@ -334,6 +333,7 @@ header .container-fluid{
 #projet a{
   text-decoration:none
 }
+
 /* FOOTER */
 
 footer{
@@ -534,7 +534,6 @@ hr{
   #profil .btn{
     width: 47%;
   } 
-
 }
 
 @media screen and (max-width: 530px) {
@@ -542,7 +541,6 @@ hr{
   #profil .btn{
     width: 54%;
   }  
-
 }
 
 @media screen and (max-width: 450px) {  
