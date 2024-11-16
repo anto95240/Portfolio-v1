@@ -10,4 +10,4 @@ Bootstrap
 JavaScript
 
 ## Autre info
-Vous pouvez consulter une version en ligne [ici]([https://votre-lien-en-ligne.com](https://anto95240.github.io/Portfolio-v1)).
+Vous pouvez consulter une version en ligne [ici](https://anto95240.github.io/Portfolio-v1).
