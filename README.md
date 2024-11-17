@@ -4,8 +4,7 @@
 Ce projet est mon 1er portfolio, Il présente mes compétences, mes projets et mon parcours.
 
 ## Technologies utilisées
-- HTML5
-- CSS3
+- HTML
 - Bootstrap
 - JavaScript
 
