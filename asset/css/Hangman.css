@@ -323,9 +323,9 @@ footer .btn{
 }
 
 @media screen and (max-width: 590px) {
-  /* return */
+  /* .return */
   .returnBack .btn{
-    width: 20% !important;    
+    width: 27% !important;    
   } 
 
   .returnTop .btn{
@@ -349,4 +349,11 @@ footer .btn{
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
+}
+
+@media screen and (max-width: 350px) {
+  /* return */
+  .returnBack .btn{
+    width: 37% !important;    
+  } 
 }
